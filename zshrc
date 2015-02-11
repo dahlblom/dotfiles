@@ -30,6 +30,7 @@ ZSH_THEME="clean"
 plugins=(git yum python systemctl )
 
 source $ZSH/oh-my-zsh.sh
+zstyle ':completion:*' special-dirs true
 
 # User configuration
 
